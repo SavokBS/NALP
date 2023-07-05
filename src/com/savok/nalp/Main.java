@@ -33,7 +33,7 @@ public class Main extends JavaPlugin {
 	public void createConfig() {
 		config.options().header("You can check config documentation on GitHub: https://github.com/SavokBS/nalp/tree/main");
 	    config.addDefault("groups", Arrays.asList("creator", "admin", "helper"));
-	    config.addDefault("time", 180);
+	    config.addDefault("time", 5);
 	    config.addDefault("shutdown-message", "&cAll admins have left. The server will shutdown in %e minutes.");
 	    config.options().copyDefaults(true);
 	    saveConfig();
