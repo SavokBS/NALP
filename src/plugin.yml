@@ -1,0 +1,6 @@
+name: NALP
+version: 1.0
+main: com.savok.nalp.Main
+description: Plugin to automatically shutdown server if there are no admins on server (or other players)
+author: SaVok
+depend: [LuckPerms]
